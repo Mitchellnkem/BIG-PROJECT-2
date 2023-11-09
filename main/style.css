@@ -1,0 +1,213 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/* universal sections */
+.container{
+	width: 80%;
+	margin: 0 auto;
+	padding: 1%;
+	text-align: center;
+}
+
+.img-responsive{
+	width: 100%;
+}
+
+.img-curve{
+	border-radius: 2rem;
+}
+
+.text-right{
+	text-align: right;
+}
+.text-center{
+	text-align: center;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.text-white{
+	color: wheat;
+}
+
+
+.clearfix{
+	clear: both;
+	float: none;
+}
+
+a{
+	color: darkorchid;
+	text-decoration: none;
+}
+
+a:hover{
+	color: darkgoldenrod;
+}
+
+.btn{
+	padding: 5px;
+	border: none;
+	font-size: 1rem;
+	border-radius: 1rem;
+}
+
+.btn-primary{
+	background-color: darkgoldenrod;
+	color: whitesmoke;
+	cursor: pointer;
+}
+
+.btn-primary:hover{
+	color: white;
+	background-color: yellowgreen;
+}
+
+h2{
+	color: yellowgreen;
+	font-size: 2rem;
+	margin-bottom: 2%;
+}
+
+h3{
+	font-size: 1.5rem;
+}
+/* universal section ends */
+/* come back here later */
+
+
+
+.logo{
+width: 2.5rem;
+float:left;
+}
+
+.menu{
+	line-height: 60px;
+}
+
+.menu ul{
+	list-style-type: none;
+}
+.menu ul li{
+	display: inline;
+	padding: 1%;
+	font-weight: bold;
+}
+
+
+/* Food section starts  */
+.food-search{
+	background-image: url(../img/home-img.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 7% 0;
+	
+}
+
+.food-search input[type="search"] {
+width: 50%;
+padding: 1%;
+font-size: 1rem;
+border: none;	
+border-radius: 5px;
+
+}
+
+
+.categories{
+padding: 4% 0;
+}
+
+.box-3{
+	width: 23%;
+	float:  left;
+	margin: 5%;
+}
+
+.food-menu{
+	background-color: grey;
+	padding: 4% 0;
+}
+
+.food-menu-box{
+width: 43%;
+margin: 3%;
+padding: 2%;
+float: left;
+background-color: wheat;
+border-radius: 1rem;
+}
+
+
+.food-menu-img {
+	float: left;
+	width: 20%;
+	margin: 10px;
+}
+
+.food-price{
+	font-size: 1rem;
+	margin: 2% 0;
+}
+
+.food-menu-desc{
+	width: 70%;
+	float: left;
+	margin: 2% 0;
+
+}
+
+.food-detail{
+font-size: 1rem;
+color: #747d8c;
+margin-bottom: 20px;
+
+}
+.food-menu-desc btn{ 
+padding: 20px;
+}
+
+.food-menu p .text-center{
+border: 3rem blue solid;
+}
+/* food section ends  */
+
+
+
+
+/* social starts  */
+
+.social{
+	background-color: pink;
+}
+.social:hover{
+	color: black;
+}
+
+/* social ends  */
+
+/* footer section */
+
+.footer {
+	background-color: darkorchid;
+	font-size: 1.3rem;
+	font-style: italic;
+}
+
+.footer .container{
+	color: black;
+}
+
+.footer .i{
+	
+}
+
+/* footer ends */
