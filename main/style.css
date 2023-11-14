@@ -81,6 +81,16 @@ h3{
 /* universal section ends */
 /* come back here later */
 
+.float-container{
+	position: relative;
+}
+
+.float-text{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
 
 
 .logo{
