@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="./main/all.css">
 	<link rel="stylesheet" href="./main/fontawesome.min.css">
 	<!-- font-awesome link ends -->
-
+	<!-- <link rel="stylesheet" href="./main/style.css"> -->
 	<link rel="stylesheet" href="./main/order.css">
 	<title>Resturant Website</title>
 </head>
@@ -20,7 +20,7 @@
 	<section class="navbar">
 		<div class="container">
 			<div class="logo">
-				<a href="index.html" aria-hidden="true"><img src="./img/loader.gif" alt=""></a>
+				<a href="index.html" aria-hidden="true"><img src="./img/loader.gif" alt="" width="100" height="100"></a>
 			</div>
 			<div class="menu text-right">
 				<ul>
@@ -36,139 +36,81 @@
 		</div>
 	</section>
 
-	<!-- header ends 0-->
+	<!-- navbar header ends 0-->
+
+
+	<section class="food-search">
+		<div class="container">
+			<h2 class="text-center  text-white">
+				Fill this form to confirm
+			</h2>
+
+
+			<form action="#" class="order">
+				<fieldset>
+					<legend>Selected Food</legend>
+					<div class="food-menu-img">
+						<img src="./img/g-1.jpg" alt="" class="img-responsive">
+					</div>
+
+
+
+					<div class="food-menu-desc">
+						<h3>Food Title</h3>
+						<p class="food-prce">USD 10.00$</p>
+						<div class="order-label"> Quantity</div>
+
+
+						
+						<input 
+						type="number" 
+						name="qty" 
+						class="input-responsive" 
+						value="1" required
+						/>
+						
+					</div>
+				</fieldset>
+
+
+
+				<fieldset>
+					<legend>Delivery Detail</legend>
+					<label for="" class="order-label">Full Name</label>
+					<br />
+
+					<input type="text" name="full_name" placeholder="Enter Full Name" />
+					<legend>Delivery Detail</legend>
+
+					<label for="" class="order-label">Phone Number</label>
+					<br />
+					
+					<input type="tel" name="contact" placeholder="+233....." />
+					<legend>Delivery Detail</legend>
+
+					<label for="" class="order-label">Email</label>
+					<br />
+					<input type= "email" name="email" placeholder="Enter your email" />
+
+					<br/>
+
+
+
+					<label for="" class="order-label">Adddress</label>
+
+					<textarea name="Address"  cols="30" rows="10"></textarea>
+
+					<input type="submit" value="Confirm order" class="">
+
+				</fieldset>
+			</form>
+		</div>
+	</section>
 
 	
 	<!-- food  serach section starts  -->
 
-	<section class="food-search text-corner">
-		<div class="container">
-			<h2>Search Foods Here</h2>
-			<form action="#" method="post">
-				<input type="search" name="search" placeholder="search for food here.." required/>
-				<button type="submit" name="submit" value="Search" class="btn-primary">Submit</button>
-			</form>
-		</div>
-		
-	</section>
-	<!-- food serach section ends -->
-
-
-
-	<!-- categories section starts  -->
-	<section class="categories">
-		<div class="container">
-			<h2 class="text-center">Explore Foods</h2>
-			<a href="#">
-				<div class="box-3 float-container">
-					<img src="./img/g-1.jpg" alt="g-1" class="img-responsive img-curve">
-					<h3 class="floa-text tex-white">Burger</h3>
-				</div>
-			</a>
-			<a href="#">
-				<div class="box-3 float-container">
-					<img src="./img/g-2.jpg" alt="g-2" class="img-responsive img-curve">
-					<h3 class="floa-text tex-white">Sandwich</h3>
-				</div>
-			</a>
-			<a href="#">
-				<div class="box-3 float-container">
-					<img src="./img/g-3.jpg" alt="g-3" class="img-responsive img-curve">
-					<h3 class="floa-text tex-white">Tacos</h3>
-				</div>
-			</a>
-
-			<div class="clearfix"></div>
-		</div>
-
-	</section>
-
-	<!-- categories section ends  -->
-
-
 	<!-- food menu start here  -->
-
-	<section class="food-menu">
-		<div class="container">
-			<h2 class="text-center">Our Menu</h2>
-
-
-			<div class="food-menu-box">
-				<div class="food-menu-img">
-					<img src="./img/g-4.jpg" alt="">
-				</div>
-				<div class="food-menu-desc">
-					<h4>Cup cake</h4>
-					<p class="food-price">10.00$/</p>
-					<p class="food-details">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde quidem consequuntur explicabo, officiis facere, saepe quis eos ipsam eligendi dolore harum enim. Perferendis quam pariatur saepe doloremque. Asperiores, exercitationem illo!</p>
-					<a href="order.html" class="btn-primary">Order Now</a>
-				</div>
-			</div>
-			<div class="food-menu-box">
-				<div class="food-menu-img">
-					<img src="./img/g-5.jpg" alt="">
-				</div>
-				<div class="food-menu-desc">
-					<h4>Desert milk</h4>
-					<p class="food-price">15.00$/</p>
-					<p class="food-details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, dolorum?</p>
-					<a href="order.html" class="btn-primary">Order Now</a>
-				</div>
-			</div>
-			<div class="food-menu-box">
-				<div class="food-menu-img">
-					<img src="./img/g-6.jpg" alt="">
-				</div>
-				<div class="food-menu-desc">
-					<h4>Chicken</h4>
-					<p class="food-price">25.00$/</p>
-					<p class="food-details">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-					<a href="order.html" class="btn-primary">Order Now</a>
-				</div>
-			</div>
-			<div class="food-menu-box">
-				<div class="food-menu-img">
-					<img src="./img/g-7.jpg" alt="">
-				</div>
-				<div class="food-menu-desc">
-					<h4>Toast Bread</h4>
-					<p class="food-price">12.00$/</p>
-					<p class="food-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-					<a href="order.html" class="btn-primary">Order Now</a>
-				</div>
-			</div>
-			<div class="food-menu-box">
-				<div class="food-menu-img">
-					<img src="./img/g-8.jpg" alt="">
-				</div>
-				<div class="food-menu-desc">
-					<h4>Chocolate</h4>
-					<p class="food-price">5.00$/</p>
-					<p class="food-details">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-					<a href="order.html" class="btn-primary">Order Now</a>
-				</div>
-			</div>
-			<div class="food-menu-box">
-				<div class="food-menu-img">
-					<img src="./img/g-9.jpg" alt="">
-				</div>
-				<div class="food-menu-desc">
-					<h4>Yummy Cake Bread</h4>
-					<p class="food-price">35.00$/</p>
-					<p class="food-details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis atque eos aliquid architecto voluptatibus rerum illum iste at sapiente quasi magnam consectetur eum repellendus, veritatis iure. Ipsam ab harum temporibus.</p>
-					<a href="order.html" class="btn-primary">Order Now</a>
-				</div>
-			</div>
-
-			<div class="classfix"></div>
-
-		</div>
-		<p class="text-center">
-			<a href="#">See all foods</a>
-		</p>
-	</section>
-
-
 	
 	<!-- food menu ends here -->
 
@@ -201,7 +143,7 @@
                 <input type="text" placeholder="food name">
             </div>
 
-            <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea>
+            <textarea placeholder="Address" name=""  cols="30" rows="10"></textarea>
 
             <input type="submit" value="order now" class="btn">
 
@@ -229,6 +171,11 @@
 
 </section>
 
+
+
+
+
+<script src="./script/app.js"></script>
 <!-- scroll top button  -->
 <a href="#home" class="fas fa-angle-up" id="scroll-top" aria-hidden="true"></a>
 

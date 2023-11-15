@@ -42,6 +42,10 @@
 	float: none;
 }
 
+ul li a{ 
+	text-decoration: hidden;
+}
+
 a{
 	color: darkorchid;
 	text-decoration: none;
